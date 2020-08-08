@@ -1,0 +1,48 @@
+@import './helpers/imports';
+
+body{
+  background: $white-lilac;
+}
+
+main{
+  margin: 24px auto 24px;
+  max-width: 950px;
+  width: calc(100% - 40px);
+}
+
+.shipping-container{
+  h3{
+    color: $trout;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  input{
+    -webkit-border-radius: 4px;
+    -webkit-transition: .4s;
+    background-color: $white;
+    border-radius: 4px;
+    border: .1px solid $separator;
+    color: $trout;
+    font-size: 15px;
+    font-weight: 400;
+    height: 2.5rem;
+    margin-right: 16px;
+    max-width: 184px;
+    padding: 0 1rem;
+    transition: .4s;
+    &[type="button"]{
+      cursor: pointer;
+    }
+  }
+  .search-cep{
+    color: $waterloo;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  small{
+    color: $error;
+    display: block;
+    margin-top: 8px;
+    transition: .4s;
+  }
+}

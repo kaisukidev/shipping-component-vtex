@@ -16,13 +16,15 @@
   "bugs": {
     "url": "https://github.com/kaisukidev/shipping-component-vtex/issues"
   },
-  "homepage": "https://github.com/kaisukidev/shipping-component-vtex#readme",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-input-mask": "^2.0.4",
     "react-scripts": "3.4.1"
   },
   "scripts": {
